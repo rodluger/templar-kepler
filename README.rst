@@ -1,8 +1,9 @@
 templar
 -------
 
-transiting exoplanet mcmc package for lightcurve analysis and recovery
-======================================================================
+**transiting exoplanet mcmc package for lightcurve analysis and recovery**
+
+Coming soon!
 
 abstract
 ========
