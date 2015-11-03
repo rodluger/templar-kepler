@@ -1,12 +1,11 @@
-templar
--------
-**transiting exoplanet mcmc package for lightcurve analysis & recovery**
+.. image:: http://www.astro.washington.edu/users/rodluger/img/templar_logo.jpg
 
-Coming soon!
+A suite of Python routines to analyze Kepler lightcurve data using Gaussian processes 
+and Markov Chain Monte Carlo. TEMPLAR is still under development, so please check
+back soon for more.
 
-|
-
-**abstract**
+abstract
+========
 
 We present templar, a Python/C-based software package for generating robust posterior probability distributions of planet orbital parameters from the Kepler, K2, and TESS datasets. templar detrends KOI lightcurve data using a combination of pixel-level decorrelation (PLD) to remove instrumental systematics and Gaussian processes (GPs) to remove astrophysical red noise. The code uses an intelligent interpolation scheme to calculate fast transit lightcurves for the general case of a non-circular orbit with transit timing variations (TTVs). templar employs GPs to enforce a quasi-periodic covariance for the TTVs, yielding unbiased posterior distributions for the transit parameters even in the case of low signal-to-noise and small, previously undetected TTVs.
 
